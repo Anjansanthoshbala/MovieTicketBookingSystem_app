@@ -1,39 +1,36 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
+
 import Navbar from './Component/Navbar'
 import Footer from './Component/Footer'
+
 import Home from './Pages/Home'
+import Theaters from './Pages/Theaters'
+import SeatSelection from './Pages/SeatSelection'
+import Payment from "./Pages/Payment";
+import BookingSuccess from "./Pages/BookingSuccess";
+import MyBookings from "./Pages/MyBookings";
+
 import MovieCard from './Component/Moviecard'
- import movieData from './data/Moviedata'
+import movieData from './data/Moviedata'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import TheaterCard from './Component/Theater'
-import theaterData from './data/Theater'
-
-
-
-
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-    <BrowserRouter>
-      <Navbar/>
-      {/* <Home/>
-      <MovieCard movie={movieData}/> */}
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/movies" element={<MovieCard movie={movieData}/>}/>
-        <Route path="/theaters" element={<TheaterCard theater={theaterData}/>}/>
-      </Routes>
-      <Footer/>
-      </BrowserRouter>
-    </>
-  )
+    return (
+        <BrowserRouter>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />}/>
+                <Route path="/movies" element={<MovieCard movie={movieData} />}/>
+                <Route path="/theaters" element={<Theaters />}/>
+                <Route path="/seats" element={<SeatSelection />}/>
+                <Route path="/payment" element={<Payment />} />
+                <Route path="/booking-success" element={<BookingSuccess />}/>
+                <Route path="/my-bookings" element={<MyBookings />}/>
+            </Routes>
+            <Footer />
+        </BrowserRouter>
+    )
 }
 
 export default App

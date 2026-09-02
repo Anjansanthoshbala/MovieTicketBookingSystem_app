@@ -1,33 +1,30 @@
 
 const theaters = [
-    {
-        id: 1,
-        name: "PVR Cinemas",
-        location: "Banjara Hills",
-        address: "GVK One Mall, Road No. 1",
-        distance: "2.5 km away",
-        screens: 5,
-        facilities: [
-            "IMAX",
-            "Dolby Atmos",
-            "Parking",
-            "Food Court"
+     {   id: 1, 
+        name: "Sandhya 70MM 4K Dolby ",
+        location: "RTC X Roads", 
+        address: "RTC X Roads, Hyderabad", 
+        distance: "7.2 km away", 
+        screens: 1, 
+        facilities: [ 
+            "Parking", 
+            "Food Court", 
+            "Dolby Sound" 
         ],
-        showtimes: [
+        showtimes: [ 
             "10:00 AM",
-            "1:30 PM",
-            "4:30 PM",
-            "7:30 PM",
-            "10:30 PM"
-        ]
+            "1:00 PM",
+            "4:00 PM", 
+            "7:00 PM", 
+            "10:00 PM"
+        ] 
     },
-
     {
         id: 2,
-        name: "INOX",
-        location: "Gachibowli",
-        address: "Atrium Mall, Gachibowli",
-        distance: "5.2 km away",
+        name: "PVR INOX",
+        location: "Panjagutta",
+        address: "Galleria Mall, Panjagutta, Hyderabad",
+        distance: "2.0 km away",
         screens: 4,
         facilities: [
             "Dolby Atmos",
@@ -48,7 +45,7 @@ const theaters = [
         id: 3,
         name: "AMB Cinemas",
         location: "Gachibowli",
-        address: "AMB Cinemas, Sarath City Capital Mall",
+        address: "AMB Cinemas, Sarath City Capital Mall, Gachibowli, Hyderabad",
         distance: "6.8 km away",
         screens: 7,
         facilities: [
@@ -68,9 +65,9 @@ const theaters = [
 
     {
         id: 4,
-        name: "Cinepolis",
+        name: "Bhramaramba 70mm A/C 4K Dolby",
         location: "Kukatpally",
-        address: "Manjeera Mall, Kukatpally",
+        address: "Kukatpally, Kukatpally,Hyderabad",
         distance: "8.1 km away",
         screens: 6,
         facilities: [
@@ -88,24 +85,26 @@ const theaters = [
         ]
     },
     
-    {   id: 5, 
-        name: "Sandhya 70MM",
-        location: "RTC X Roads", 
-        address: "RTC X Roads, Hyderabad", 
-        distance: "7.2 km away", 
-        screens: 1, 
-        facilities: [ 
-            "Parking", 
-            "Food Court", 
-            "Dolby Sound" 
+       {
+        id: 5,
+        name: "PVR Cinemas",
+        location: "Banjara Hills",
+        address: "GVK One Mall, Road No. 1, Banjara Hills, Hyderabad",
+        distance: "2.5 km away",
+        screens: 5,
+        facilities: [
+            "IMAX",
+            "Dolby Atmos",
+            "Parking",
+            "Food Court"
         ],
-        showtimes: [ 
+        showtimes: [
             "10:00 AM",
-            "1:00 PM",
-            "4:00 PM", 
-            "7:00 PM", 
-            "10:00 PM"
-        ] 
+            "1:30 PM",
+            "4:30 PM",
+            "7:30 PM",
+            "10:30 PM"
+        ]
     },
 
     { 
@@ -153,9 +152,9 @@ const theaters = [
                      
     { 
         id: 8, 
-        name: "Vimal 70MM", 
+        name: "Mythri Vimal 70MM A/C 4K Laser Dolby Atmos", 
         location: "Y-Junction", 
-        address: "Y-JUnction Bala Nagar, Hyderabad", 
+        address: "Y-Junction, Bala Nagar, Hyderabad", 
         distance: "4.6 km away", 
         screens: 1, 
         facilities: [ 
@@ -172,33 +171,33 @@ const theaters = [
             "10:15 PM" 
         ] 
     },
-        {
-    id: 9,
-    name: "Gokul 70MM",
-    location: "Erragadda",
-    address: "Gokul Theatre, Erragadda, Hyderabad",
-    distance: "5.1 km away",
-    screens: 1,
-    facilities: [
-        "Parking",
-        "Food Court",
-        "Dolby Sound"
-    ],
-    showtimes: [
-        "10:00 AM",
-        "1:00 PM",
-        "4:00 PM",
-        "7:00 PM",
-        "10:00 PM"
-    ]
+    {
+        id: 9,
+        name: "Gokul Theatre 70MM A/C",
+        location: "Erragadda",
+        address: "Gokul Theatre, Erragadda, Hyderabad",
+        distance: "5.1 km away",
+        screens: 1,
+        facilities: [
+             "Parking",
+             "Food Court",
+              "Dolby Sound"
+        ],
+        showtimes: [
+              "10:00 AM",
+              "1:00 PM",
+              "4:00 PM",
+              "7:00 PM",
+              "10:00 PM"
+        ]
     },
     {
         id: 10,
-        name: "Asian Cinemas",
+        name: "Asian Mukta A2 Sensation Cinema",
         location: "Khairatabad",
-        address: "Asian Mukta A2 Cinemas",
+        address: " Lakdikapul Road, Khairatabad, Hyderabad",
         distance: "4.7 km away",
-        screens: 5,
+        screens: 2,
         facilities: [
             "Dolby Atmos",
             "Parking",
