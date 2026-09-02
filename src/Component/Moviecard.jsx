@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom"
-import SearchBar from "./Searchbar"
 import { useEffect, useState } from "react"
 import GenreFilter from "./Genre"
 
