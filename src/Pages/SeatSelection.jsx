@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import Seat from "../Component/Seat";
+import Seat from "../Component/Seat";
 import { useLocation, useNavigate } from "react-router-dom";
 
 function SeatSelection() {
