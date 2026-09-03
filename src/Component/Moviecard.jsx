@@ -2,8 +2,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import SearchBar from "./Searchbar";
+
 import GenreFilter from "./Genre";
+import SearchBar from './SearchBar';
 
 function MovieCard({ movie }) {
     const [search, setSearch] = useState("");
